@@ -1,296 +1,467 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>My Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-  <link href="assets/img/p1.png" rel="icon">
-  <link href="assets/img/p1.png" rel="apple-touch-icon">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/css/style.css" rel="stylesheet">
-</head>
-<body>
-  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
-  <header id="header">
-    <div class="d-flex flex-column">
-      <div class="profile">
-        <img src="assets/img/me.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Ankit Kumar</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a href="https://twitter.com/jinxankit" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="https://github.com/jinx-ankit" class="github"><i class="bx bxl-github"></i></a>
-          <a href="https://www.linkedin.com/in/ankit-kumar-048081164/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        </div>
-      </div>
-      <nav class="nav-menu">
-        <ul>
-          <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#education"><i class="bx bx-file-blank"></i> <span>Education</span></a></li>
-          <li><a href="#experience"><i class="bx bx-book-content"></i> Experience</a></li>
-          <li><a href="#projects"><i class="bx bx-server"></i> Projects</a></li>
-          <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
-        </ul>
-      </nav>
-      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
-    </div>
-  </header>
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>Ankit Kumar</h1>
-      <p>I'm <span class="typed" data-typed-items="Software Developer, Engineer, Student"></span></p>
-      <p><a href="assets/Resume.pdf" class="btn btn-primary btn-learn">My Resume PDF <i class="icon-download4"></i></a></p>
-    </div>
-
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-        <div class="section-title">
-          <h2>About</h2>
-          <p>I am a passionate and creative developer from India. I hold a Bachelor of Technology ( B. Tech ) degree in Computer Science and Engineering From National Institue Of Technology Hamirpur. I have mostly worked on backend development and have less than one year of professional and remote working experience.</p>
-        </div>
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/me.jpg" class="img-fluid" alt="">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>My Portfolio</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+    <link href="assets/img/p1.png" rel="icon" />
+    <link href="assets/img/p1.png" rel="apple-touch-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <button type="button" class="mobile-nav-toggle d-xl-none">
+      <i class="icofont-navigation-menu"></i>
+    </button>
+    <header id="header">
+      <div class="d-flex flex-column">
+        <div class="profile">
+          <img
+            src="assets/img/me.jpg"
+            alt=""
+            class="img-fluid rounded-circle"
+          />
+          <h1 class="text-light"><a href="index.html">Ankit Kumar</a></h1>
+          <div class="social-links mt-3 text-center">
+            <a href="https://twitter.com/jinxankit" class="twitter"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+            <a href="https://github.com/jinx-ankit" class="github"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/ankit-kumar-048081164/"
+              class="linkedin"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Software Developer</h3>
-            <p class="font-italic">
-              Currently I'm doing Backend Developer Internship at Yulu Bike. Yulu is an electric bike rental app aiming to improve traffic congestion and air pollution in urban India.
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 25 Nov 1999</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +91 8351802578</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> ankit.2official@gmail.com</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Patna, India</li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 21</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> Bachelor</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>College:</strong> National Institue Of Technology, Hamirpur</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Available</li>
-                </ul>
-              </div>
-            </div>
+        </div>
+        <nav class="nav-menu">
+          <ul>
+            <li class="active">
+              <a href="index.html"
+                ><i class="bx bx-home"></i> <span>Home</span></a
+              >
+            </li>
+            <li>
+              <a href="#about"><i class="bx bx-user"></i> <span>About</span></a>
+            </li>
+            <li>
+              <a href="#education"
+                ><i class="bx bx-file-blank"></i> <span>Education</span></a
+              >
+            </li>
+            <li>
+              <a href="#experience"
+                ><i class="bx bx-book-content"></i> Experience</a
+              >
+            </li>
+            <li>
+              <a href="#projects"><i class="bx bx-server"></i> Projects</a>
+            </li>
+            <li>
+              <a href="#contact"><i class="bx bx-envelope"></i> Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <button type="button" class="mobile-nav-toggle d-xl-none">
+          <i class="icofont-navigation-menu"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- ======= Hero Section ======= -->
+    <section
+      id="hero"
+      class="d-flex flex-column justify-content-center align-items-center"
+    >
+      <div class="hero-container" data-aos="fade-in">
+        <h1>Ankit Kumar</h1>
+        <p>
+          I'm
+          <span
+            class="typed"
+            data-typed-items="Software Developer, Engineer, Student"
+          ></span>
+        </p>
+        <p>
+          <a href="assets/Resume.pdf" class="btn btn-primary btn-learn"
+            >My Resume PDF <i class="icon-download4"></i
+          ></a>
+        </p>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-title">
+            <h2>About</h2>
             <p>
-              I am Fully-committed to designing and developing innovative materials. I am highly self-motivated, enthusiastic and always willing to learn more.
+              I am a passionate and creative developer from India. I hold a
+              Bachelor of Technology ( B. Tech ) degree in Computer Science and
+              Engineering From National Institue Of Technology Hamirpur. I have
+              mostly worked on backend development and have less than one year
+              of professional and remote working experience.
             </p>
           </div>
+          <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+              <img src="assets/img/me.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+              <h3>Software Developer</h3>
+              <p class="font-italic">
+                Currently I'm doing Backend Developer Internship at Yulu Bike.
+                Yulu is an electric bike rental app aiming to improve traffic
+                congestion and air pollution in urban India.
+              </p>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="icofont-rounded-right"></i>
+                      <strong>Birthday:</strong> 25 Nov 1999
+                    </li>
+                    <li>
+                      <i class="icofont-rounded-right"></i>
+                      <strong>Phone:</strong> +91 8351802578
+                    </li>
+                    <li>
+                      <i class="icofont-rounded-right"></i>
+                      <strong>Email:</strong> ankit.2official@gmail.com
+                    </li>
+                    <li>
+                      <i class="icofont-rounded-right"></i>
+                      <strong>City:</strong> Patna, India
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="icofont-rounded-right"></i>
+                      <strong>Age:</strong> 21
+                    </li>
+                    <li>
+                      <i class="icofont-rounded-right"></i>
+                      <strong>Degree:</strong> Bachelor
+                    </li>
+                    <li>
+                      <i class="icofont-rounded-right"></i>
+                      <strong>College:</strong> National Institue Of Technology,
+                      Hamirpur
+                    </li>
+                    <li>
+                      <i class="icofont-rounded-right"></i>
+                      <strong>Freelance:</strong> Available
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <p>
+                I am Fully-committed to designing and developing innovative
+                materials. I am highly self-motivated, enthusiastic and always
+                willing to learn more.
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-    </section><!-- End About Section -->
-    <!-- ======= Education Section ======= -->
-    <section id="education" class="education">
-      <div class="container">
-        <div class="section-title">
-          <h2>Education</h2>
+      </section>
+      <!-- End About Section -->
+      <!-- ======= Education Section ======= -->
+      <section id="education" class="education">
+        <div class="container">
+          <div class="section-title">
+            <h2>Education</h2>
             <div class="education-item">
-              <h4>Bachelor of Technology, (2016 - 2020) </h4>
+              <h4>Bachelor of Technology, (2016 - 2020)</h4>
               <h5>National Institute of Technology, Hamirpur, India</h5>
-              <h5> GPA: 8.2/10 </h5>
+              <h5>GPA: 8.2/10</h5>
               <p><em>Computer Science and Engineering</em></p>
-              <p>Member in GNU Linux User Group and Programming, Coordinator at Team Public Relations and Volunteer at Literacy Mission NITH</p>
-            </div>
-        </div>
-      </div>
-    </section><!-- End Education Section -->
-
-    <!-- ======= Experience Section ======= -->
-    <section id="experience" class="experience">
-      <div class="container">
-        <div class="section-title">
-          <h2>Experience</h2>
-            <div class="row">
-          </div>
-          <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="experience-title">Internships</h3>
-            <div class="experience-item pb-0">
-              <h4>Backend Developer</h4>
-              <h6>Yulu Bikes</h6>
-              <h5>July(2020) - Present</h5>
-              <p><em>Bangalore, India </em></p>
-              <ul>
-                <li>Design the POC, participated in the database design which leads to the product design</li>
-                <li>Developed the required API's for the product using Node.js and mysql</li>
-              </ul>
-            </div>
-            <div class="experience-item">
-              <h4>Software Developer</h4>
-              <h6>KloudOne</h6>
-              <h5>May(2020) - July(2020)</h5>
-              <p><em>Remotely</em></p>
-              <ul>
-                <li>Worked on Spring boot, Microservices, Jhipster and RESTful web services for a modern Learning Management System (LMS).</li>
-              </ul>
-            </div>
-            <div class="experience-item">
-              <h4>Software Engineering Virtual Experience</h4>
-              <h6>JPMorgan Chase & Co.</h6>
-              <h5>Apr(2020) - Apr(2020)</h5>
-              <p><em>Remotely</em></p>
-              <ul>
-                <li>Working on Interface with a Stock Price Data Feed and displayed data visually for Trader's Dashboard and did my Open source contribution in it.</li>
-              </ul>
-            </div>
-            <div class="experience-item">
-              <h4>Software Developer</h4>
-              <h6>HRBOT</h6>
-              <h5>May(2019) - July(2019)</h5>
-              <p><em>Gurgaon, India</em></p>
-              <ul>
-                <li>HRBOT is an AI-driven recruitment platform. It helps in reducing calling effort in frontline recruitment by automating the screening process through assessments & questionnaire on apps & chatbots and for recruiters which notifies them about candidates who have applied for their job post.
-                  Responsible for setup of remote desktop sharing using VNC Server in the GCP, developing Java backend for maintaining and to assist data analysis and suggest methods of improvement and enhancement of WhatsApp chatbot using firebase and ActiveMQ.
-                  Also Worked on selenium for web scrapping which uses a web-driver package that can take control of the browser and mimic user-oriented actions to trigger events on different recruitment platform.</li>
-              </ul>
-            </div>
-            <div class="experience-item">
-              <h4>Frontend and Backend Internship</h4>
-              <h6>WERP India</h6>
-              <h5>Nov(2018) - Dec(2018)</h5>
-              <p><em>Remotely</em></p>
-              <ul>
-                <li>Volunteered for backend changes in multiple applications.</li>
-              </ul>
-            </div>
-            
-          </div>
-        </div>
-      </div>
-    </section><!-- End Experience Section -->
-  <!-- ======= Skills Section ======= -->
-  <section id="skills" class="skills section-bg">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Skills</h2>
-      </div>
-      <h4>C, C++, Java, Data Structures and Algorithms, mysql, git, Linux, Node.js, Spring Boot</h4>
-    </div>
-  </section><!-- End Skills Section -->
-
-    <!-- ======= Projects Section ======= -->
-    <section id="projects" class="projects">
-      <div class="container">
-        <div class="section-title">
-          <h2>Projects</h2></div>
-        </div>
-    </section><!-- End Projects Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-        </div>
-
-        <div class="row" data-aos="fade-in">
-
-          <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="icofont-google-map"></i>
-                <h4>Location:</h4>
-                <p>Basudeo Path, IOC Colony, Kumhrar, Patna, Bihar, India, 800016</p>
-              </div>
-
-              <div class="email">
-                <i class="icofont-envelope"></i>
-                <h4>Email:</h4>
-                <p>ankit.2official@gmail.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="icofont-phone"></i>
-                <h4>Call:</h4>
-                <p>+91 8351802578</p>
-              </div>
-
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7196.562313664308!2d85.189824!3d25.595572!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed58b2a39b5831%3A0xec56c08f0617bb81!2sBasudev%20Path%2C%20Maurya%20Vihar%20Colony%2C%20Kumhrar%2C%20Patna%2C%20Bihar%2C%20India!5e0!3m2!1sen!2sbg!4v1602361314559!5m2!1sen!2sbg" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              <p>
+                Member in GNU Linux User Group and Programming, Coordinator at
+                Team Public Relations and Volunteer at Literacy Mission NITH
+              </p>
             </div>
           </div>
+        </div>
+      </section>
+      <!-- End Education Section -->
 
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+      <!-- ======= Experience Section ======= -->
+      <section id="experience" class="experience">
+        <div class="container">
+          <div class="section-title">
+            <h2>Experience</h2>
+            <div class="row"></div>
+            <div class="col-lg-6" data-aos="fade-up">
+              <h3 class="experience-title">Internships</h3>
+              <div class="experience-item pb-0">
+                <h4>Backend Developer</h4>
+                <h6>Yulu Bikes</h6>
+                <h5>July(2020) - Present</h5>
+                <p><em>Bangalore, India </em></p>
+                <ul>
+                  <li>
+                    Design the POC, participated in the database design which
+                    leads to the product design
+                  </li>
+                  <li>
+                    Developed the required API's for the product using Node.js
+                    and mysql
+                  </li>
+                </ul>
+              </div>
+              <div class="experience-item">
+                <h4>Software Developer</h4>
+                <h6>KloudOne</h6>
+                <h5>May(2020) - July(2020)</h5>
+                <p><em>Remotely</em></p>
+                <ul>
+                  <li>
+                    Worked on Spring boot, Microservices, Jhipster and RESTful
+                    web services for a modern Learning Management System (LMS).
+                  </li>
+                </ul>
+              </div>
+              <div class="experience-item">
+                <h4>Software Engineering Virtual Experience</h4>
+                <h6>JPMorgan Chase & Co.</h6>
+                <h5>Apr(2020) - Apr(2020)</h5>
+                <p><em>Remotely</em></p>
+                <ul>
+                  <li>
+                    Working on Interface with a Stock Price Data Feed and
+                    displayed data visually for Trader's Dashboard and did my
+                    Open source contribution in it.
+                  </li>
+                </ul>
+              </div>
+              <div class="experience-item">
+                <h4>Software Developer</h4>
+                <h6>HRBOT</h6>
+                <h5>May(2019) - July(2019)</h5>
+                <p><em>Gurgaon, India</em></p>
+                <ul>
+                  <li>
+                    HRBOT is an AI-driven recruitment platform. It helps in
+                    reducing calling effort in frontline recruitment by
+                    automating the screening process through assessments &
+                    questionnaire on apps & chatbots and for recruiters which
+                    notifies them about candidates who have applied for their
+                    job post. Responsible for setup of remote desktop sharing
+                    using VNC Server in the GCP, developing Java backend for
+                    maintaining and to assist data analysis and suggest methods
+                    of improvement and enhancement of WhatsApp chatbot using
+                    firebase and ActiveMQ. Also Worked on selenium for web
+                    scrapping which uses a web-driver package that can take
+                    control of the browser and mimic user-oriented actions to
+                    trigger events on different recruitment platform.
+                  </li>
+                </ul>
+              </div>
+              <div class="experience-item">
+                <h4>Frontend and Backend Internship</h4>
+                <h6>WERP India</h6>
+                <h5>Nov(2018) - Dec(2018)</h5>
+                <p><em>Remotely</em></p>
+                <ul>
+                  <li>
+                    Volunteered for backend changes in multiple applications.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Experience Section -->
+      <!-- ======= Skills Section ======= -->
+      <section id="skills" class="skills section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Skills</h2>
+          </div>
+          <h4>
+            C, C++, Java, Data Structures and Algorithms, mysql, git, Linux,
+            Node.js, Spring Boot
+          </h4>
+        </div>
+      </section>
+      <!-- End Skills Section -->
+
+      <!-- ======= Projects Section ======= -->
+      <section id="projects" class="projects">
+        <div class="container">
+          <div class="section-title">
+            <h2>Projects</h2>
+          </div>
+        </div>
+      </section>
+      <!-- End Projects Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="section-title">
+            <h2>Contact</h2>
+          </div>
+
+          <div class="row" data-aos="fade-in">
+            <div class="col-lg-5 d-flex align-items-stretch">
+              <div class="info">
+                <div class="address">
+                  <i class="icofont-google-map"></i>
+                  <h4>Location:</h4>
+                  <p>
+                    Basudeo Path, IOC Colony, Kumhrar, Patna, Bihar, India,
+                    800016
+                  </p>
+                </div>
+
+                <div class="email">
+                  <i class="icofont-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>ankit.2official@gmail.com</p>
+                </div>
+
+                <div class="phone">
+                  <i class="icofont-phone"></i>
+                  <h4>Call:</h4>
+                  <p>+91 8351802578</p>
+                </div>
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7196.562313664308!2d85.189824!3d25.595572!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed58b2a39b5831%3A0xec56c08f0617bb81!2sBasudev%20Path%2C%20Maurya%20Vihar%20Colony%2C%20Kumhrar%2C%20Patna%2C%20Bihar%2C%20India!5e0!3m2!1sen!2sbg!4v1602361314559!5m2!1sen!2sbg"
+                  width="600"
+                  height="450"
+                  frameborder="0"
+                  style="border: 0"
+                  allowfullscreen=""
+                  aria-hidden="false"
+                  tabindex="0"
+                ></iframe>
+              </div>
+            </div>
+
+            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+              <form
+                action="forms/contact.php"
+                method="post"
+                role="form"
+                class="php-email-form"
+              >
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="name">Your Name</label>
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      id="name"
+                      data-rule="minlen:4"
+                      data-msg="Please enter at least 4 chars"
+                    />
+                    <div class="validate"></div>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="name">Your Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      data-rule="email"
+                      data-msg="Please enter a valid email"
+                    />
+                    <div class="validate"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="name">Subject</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    id="subject"
+                    data-rule="minlen:4"
+                    data-msg="Please enter at least 8 chars of subject"
+                  />
                   <div class="validate"></div>
                 </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="form-group">
+                  <label for="name">Message</label>
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="10"
+                    data-rule="required"
+                    data-msg="Please write something for us"
+                  ></textarea>
                   <div class="validate"></div>
                 </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
+                <div class="mb-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">
+                    Your message has been sent. Thank you!
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button type="submit">Send Message</button>
+                </div>
+              </form>
+            </div>
           </div>
-
         </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
 
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>jinx</span></strong>
+        </div>
       </div>
-    </section><!-- End Contact Section -->
-  </main><!-- End #main -->
+    </footer>
+    <!-- End  Footer -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>(Me)</span></strong>
-      </div>
-    </div>
-  </footer><!-- End  Footer -->
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

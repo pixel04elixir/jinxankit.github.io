@@ -110,6 +110,8 @@ h6 {
   background: #149ddd;
   color: #fff;
   text-decoration: none;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.2);
 }
 
 #main {
@@ -273,7 +275,7 @@ h6 {
 }
 
 #hero a:hover {
-  transform: scale(1.1);
+  transform: scale(1.01);
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 /*--------------------------------------------------------------
@@ -344,6 +346,10 @@ section {
   margin-bottom: 0;
 }
 
+.about img {
+  border-radius: 17px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
